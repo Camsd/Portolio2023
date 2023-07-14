@@ -1,10 +1,6 @@
-//next image
-import Image from "next/image";
-
 //components
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectsBtn from "../components/ProjectsBtn";
-import Avatar from "../components/Avatar";
 
 //framer motion
 import { motion } from "framer-motion";
@@ -14,7 +10,7 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="bg-primary/60 h-full">
+    <div className="bg-primary/80 h-full">
       {/* text */}
       <div
         className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30
