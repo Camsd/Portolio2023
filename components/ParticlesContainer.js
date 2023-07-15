@@ -52,7 +52,7 @@ const ParticlesContainer = () => {
           },
           links: {
             color: "#E2E8FF",
-            distance: 50,
+            distance: 60,
             enable: true,
             opacity: 0.5,
             width: 1,
@@ -67,7 +67,7 @@ const ParticlesContainer = () => {
               default: "bounce",
             },
             random: true,
-            speed: .6,
+            speed: .5,
             straight: false,
           },
           number: {
@@ -84,7 +84,7 @@ const ParticlesContainer = () => {
             type: "star",
           },
           size: {
-            value: { min: .3, max: 1.5 },
+            value: { min: .7, max: 1.7 },
           },
         },
         detectRetina: true,
