@@ -3,34 +3,18 @@ import Link from "next/link";
 
 //icons
 import {
-  RiYoutubeLine,
-  RiInstagramLine,
-  RiFacebookBoxLine,
-  RiBehanceLine,
-  RiPinterestLine,
-  RiDribbbleLine,
-} from "react-icons/ri";
+  FaGithub, FaLinkedin,
+
+} from "react-icons/fa";
 
 const Socials = () => {
   return (
-    <div className="flex items-center gap-x-5 text-lg">
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiYoutubeLine />
+    <div className="flex items-center gap-x-5 text-3xl">
+      <Link href={"https://github.com/Camsd"} target="_blank" className="hover:text-accent transition-all duration-300">
+        <FaGithub />
       </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiInstagramLine />
-      </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiFacebookBoxLine />
-      </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiDribbbleLine />
-      </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiBehanceLine />
-      </Link>
-      <Link href={""} className="hover:text-accent transition-all duration-300">
-        <RiPinterestLine />
+      <Link href={"https://www.linkedin.com/in/eduard-ortega-42xzz/"} target="-blank" className="hover:text-accent transition-all duration-300">
+        <FaLinkedin />
       </Link>
     </div>
   );

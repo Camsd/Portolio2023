@@ -51,8 +51,8 @@ const ParticlesContainer = () => {
             value: "#fff",
           },
           links: {
-            color: "#E2E8FF",
-            distance: 60,
+            color: "#E7D5A2",
+            distance: 95,
             enable: true,
             opacity: 0.5,
             width: 1,
@@ -81,10 +81,10 @@ const ParticlesContainer = () => {
             value: 1,
           },
           shape: {
-            type: "star",
+            type: "square",
           },
           size: {
-            value: { min: .7, max: 1.7 },
+            value: { min: 1, max: 2 },
           },
         },
         detectRetina: true,

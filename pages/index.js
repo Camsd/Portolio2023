@@ -36,9 +36,10 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In
-            accusamus quam eveniet obcaecati laudantium fugit excepturi
-            voluptatem veritatis deleniti animi!
+            "Frontend Developer specialized in creating captivating web
+            experiences. Proficient in HTML, CSS, JavaScript, and React. Explore
+            my projects and discover how I craft interactive and functional
+            interfaces."
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative ">
@@ -59,7 +60,7 @@ const Home = () => {
       <div className="w-[1250px] h-full absolute right-0 bottom-0 ">
         <div>
           {/* particles */}
-          {/* <ParticlesContainer /> */}
+          <ParticlesContainer />
         </div>
       </div>
     </div>
