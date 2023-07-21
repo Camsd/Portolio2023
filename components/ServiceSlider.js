@@ -7,14 +7,11 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 
 //icons
-import {
-  RxCrop,
-  RxDesktop,
-  RxPencil2,
-  RxReader,
-  RxRocket,
-  RxArrowTopRight,
-} from "react-icons/rx";
+import { RxPencil2, RxRocket, RxArrowTopRight } from "react-icons/rx";
+
+import { IoMdTabletLandscape } from "react-icons/io";
+import { BsCodeSquare } from "react-icons/bs";
+import { TbWorldSearch } from "react-icons/tb";
 
 //import required modules
 import { FreeMode, Pagination } from "swiper";
@@ -22,29 +19,32 @@ import { FreeMode, Pagination } from "swiper";
 //service data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "UI/UX",
+    description:
+      "Creation of attractive interfaces and intuitive user experiences.",
   },
   {
-    icon: <RxDesktop />,
+    icon: <BsCodeSquare />,
     title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description: "Development of modern and functional web applications",
   },
   {
-    icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: <IoMdTabletLandscape />,
+    title: "Responsive Web",
+    description: "Creation of websites that adapt to all types of screens",
   },
   {
     icon: <RxRocket />,
+    title: "Performance",
+    description:
+      "Fast websites and smooth experience for your users.",
+  },
+  {
+    icon: <TbWorldSearch className="text-4xl" />,
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    description:
+      "Improved search engine visibility, enhancing online presence.",
   },
 ];
 
