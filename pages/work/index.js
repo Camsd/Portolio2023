@@ -31,7 +31,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              "Welcome to my projects section! Here you will find a selection of works that reflect my unwavering passion for web development"
+               &ldquo;Welcome to my projects section! Here you will find a selection of works that reflect my unwavering passion for web development &rdquo;
             </motion.p>
           </div>
           <motion.div
