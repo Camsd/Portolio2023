@@ -74,6 +74,7 @@ const About = () => {
             priority={true}
             className="rounded-full mx-32 mb-0 max-w-min hidden sm:hidden md:hidden lg:hidden xl:block"
           />
+          {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
             "I'm Eduard, a passionate frontend developer with a creative mind
             and a love for design and web development. With expertise in HTML,
@@ -122,7 +123,11 @@ const About = () => {
                   <div className="flex gap-x-4">
                     {/* icons */}
                     {item.icons?.map((icon, itemIndex) => {
-                      return <div className="text-2xl text-white">{icon}</div>;
+                      return (
+                        <div key={itemIndex} className="text-2xl text-white">
+                          {icon}
+                        </div>
+                      );
                     })}
                   </div>
                 </div>

@@ -10,6 +10,7 @@ const Circles = () => {
         height={200}
         className="h-full
     w-full"
+    alt=" "
       />
     </div>
   );
