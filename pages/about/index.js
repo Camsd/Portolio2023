@@ -19,17 +19,17 @@ const aboutData = [
       {
         title: "Web Development",
         icons: [
-          <FaHtml5 />,
-          <FaCss3 />,
-          <FaJs />,
-          <FaReact />,
-          <TbBrandFramerMotion />,
-          <SiTailwindcss />,
+          <FaHtml5 key="html" />,
+          <FaCss3 key="css" />,
+          <FaJs key="js" />,
+          <FaReact key="react" />,
+          <TbBrandFramerMotion key="framer-motion" />,
+          <SiTailwindcss key="tailwind" />,
         ],
       },
       {
         title: "UI/UX Design",
-        icons: [<FaFigma />, <SiAdobexd />],
+        icons: [<FaFigma key="figma" />, <SiAdobexd key="adobe-xd" />],
       },
     ],
   },
@@ -38,10 +38,10 @@ const aboutData = [
     info: [
       {
         title:
-          "Meta Front-End Developer Professional Certificate (June 2022) - (Jule 2023)",
+          "Meta Front-End Developer Professional Certificate (June 2022) - (July 2023)",
       },
       {
-        title: "Responsive Desing Certificate(300h) - FreeCodeCamp - 2022",
+        title: "Responsive Design Certificate (300h) - FreeCodeCamp - 2022",
       },
       {
         title:
