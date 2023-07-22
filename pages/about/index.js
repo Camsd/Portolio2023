@@ -76,14 +76,14 @@ const About = () => {
           />
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
-            "I'm Eduard, a passionate frontend developer with a creative mind
-            and a love for design and web development. With expertise in HTML,
-            CSS, and JavaScript, I enjoy building attractive and functional web
-            interfaces. Additionally, I'm proficient in React, Tailwind CSS,
-            Framer Motion, and Figma, enabling me to craft captivating digital
-            experiences from design to implementation. I'm always seeking new
-            challenges and opportunities to grow as a professional in the
-            exciting world of web development."
+            &ldquo;I&apos;m Eduard, a passionate frontend developer with a
+            creative mind and a love for design and web development. With
+            expertise in HTML, CSS, and JavaScript, I enjoy building attractive
+            and functional web interfaces. Additionally, I&apos;m proficient in
+            React, Tailwind CSS, Framer Motion, and Figma, enabling me to craft
+            captivating digital experiences from design to implementation.
+            I&apos;m always seeking new challenges and opportunities to grow as
+            a professional in the exciting world of web development.&rdquo;
           </p>
         </motion.div>
         {/* info */}
