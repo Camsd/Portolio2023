@@ -23,7 +23,8 @@ const Contact = () => {
             exit="hidden"
             className="h2 text-center mb-12"
           >
-            Let's <span className="text-accent">connect.</span>
+            Let&rsquo;s
+            <span className="text-accent">connect.</span>
           </motion.h2>
           {/* form */}
           <motion.form
@@ -33,8 +34,7 @@ const Contact = () => {
             exit="hidden"
             className="flex-1 flex flex-col gap-6 w-full mx-auto"
           >
-
-{/* Juntos, hagamos que tus proyectos destaquen y brinden una presencia en línea inolvidable." */}
+            {/* Juntos, hagamos que tus proyectos destaquen y brinden una presencia en línea inolvidable." */}
 
             {/* input group */}
             <div className="flex gap-x-6 w-full">
