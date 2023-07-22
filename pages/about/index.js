@@ -67,7 +67,7 @@ const About = () => {
           className="flex-1 flex flex-col justify-center"
         >
           <Image
-            src={"/I2.png"}
+            src={"/I.png"}
             width={160}
             height={48}
             alt=""
