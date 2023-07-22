@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Circles from "../../components/Circles";
 //icons
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
@@ -53,7 +53,11 @@ const aboutData = [
 
 const About = () => {
   const [index, setIndex] = useState(0);
-  console.log(index);
+  useEffect(() => {
+    return () => {
+      setIndex(0);
+    };
+  }, []);
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
