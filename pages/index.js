@@ -10,7 +10,7 @@ import { fadeIn } from "../variants";
 
 const Home = () => {
   return (
-    <div className="bg-primary/80 h-full">
+    <div className="bg-primary/80 h-screen">
       {/* text */}
       <div
         className="w-full h-full bg-gradient-to-r from-primary/10 via-black/30
@@ -59,7 +59,7 @@ const Home = () => {
         </div>
       </div>
       {/* image */}
-      <div className="w-[1250px] h-full absolute right-0 bottom-0 ">
+      <div className="w-[1250px] h-full absolute right-0 bottom-0">
         <div>
           {/* particles */}
           <ParticlesContainer />
