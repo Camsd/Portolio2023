@@ -31,9 +31,7 @@ const Work = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae
-              voluptatum dignissimos quasi ipsum soluta eos id corporis atque
-              sit necessitatibus.
+              "Welcome to my projects section! Here you will find a selection of works that reflect my unwavering passion for web development"
             </motion.p>
           </div>
           <motion.div
