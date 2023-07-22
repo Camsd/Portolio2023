@@ -23,7 +23,7 @@ const Home = () => {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="h1"
+            className=" h1 hidden lg:block"
           >
             Transforming ideas <br /> Into{" "}
             <span className="text-accent">Digital Reality</span>
@@ -37,11 +37,11 @@ const Home = () => {
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
-              &ldquo;Frontend Developer specialized in creating captivating web
-              experiences. Proficient in HTML, CSS, JavaScript, and React.
-              Explore my projects and discover how I craft interactive and
-              functional interfaces. &rdquo;
-            </p>
+  &ldquo;Frontend Developer specialized in creating captivating web
+  experiences. Proficient in HTML, CSS, JavaScript, and React. Explore
+  my projects and discover how I craft interactive and functional
+  interfaces. &rdquo;
+</p>
           </motion.p>
           {/* btn */}
           <div className="flex justify-center xl:hidden relative ">
