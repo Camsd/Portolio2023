@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Circles from "../../components/Circles";
 //icons
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
 import { TbBrandFramerMotion } from "react-icons/tb";
@@ -60,7 +59,6 @@ const About = () => {
   }, []);
   return (
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
-      <Circles />
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         {/* text */}
         <motion.div
@@ -74,20 +72,16 @@ const About = () => {
             src={"/I.png"}
             width={160}
             height={48}
-            alt=""
+            alt="Foto de Eduard Camilo Ortega, desarrollador frontend"
             priority={true}
-            className="rounded-full mx-32 mb-0 max-w-min hidden sm:hidden md:hidden lg:hidden xl:block"
+            className="rounded-full mx-32 mb-0 max-w-min hidden sm:hidden md:hidden lg:hidden xl:block "
           />
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
-            &ldquo;I&apos;m Eduard, a passionate frontend developer with a
+            I&apos;m Eduard, a passionate frontend developer with a
             creative mind and a love for design and web development. With
             expertise in HTML, CSS, and JavaScript, I enjoy building attractive
-            and functional web interfaces. Additionally, I&apos;m proficient in
-            React, Tailwind CSS, Framer Motion, and Figma, enabling me to craft
-            captivating digital experiences from design to implementation.
-            I&apos;m always seeking new challenges and opportunities to grow as
-            a professional in the exciting world of web development.&rdquo;
+            and functional web interfaces.
           </p>
         </motion.div>
         {/* info */}
