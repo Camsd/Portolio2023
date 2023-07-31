@@ -10,7 +10,7 @@ const Circles = () => {
         height={200}
         className="h-full
     w-full"
-    alt=" "
+    alt="imagen de circulos parpadeantes"
       />
     </div>
   );
