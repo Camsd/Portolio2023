@@ -37,10 +37,10 @@ const Home = () => {
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
             <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
-  &ldquo;Frontend Developer specialized in creating captivating web
+  Frontend Developer specialized in creating captivating web
   experiences. Proficient in HTML, CSS, JavaScript, and React. Explore
   my projects and discover how I craft interactive and functional
-  interfaces. &rdquo;
+  interfaces.
 </p>
           </motion.p>
           {/* btn */}

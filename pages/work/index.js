@@ -1,7 +1,6 @@
 //components
 import WorkSlider from "../../components/WorkSlider";
 import Bulb from "../../components/Bulb";
-import Circles from "../../components/Circles";
 
 //framer motion
 import { motion } from "framer-motion";
@@ -10,7 +9,6 @@ import { fadeIn } from "../../variants";
 const Work = () => {
   return (
     <div className="h-full bg-primary/30 py-60">
-      <Circles />
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row gap-x-10">
           {/* text */}
