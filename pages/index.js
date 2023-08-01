@@ -42,7 +42,7 @@ const Home = () => {
               exit="hidden"
               className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
             >
-              <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
+              <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-0 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
                 Frontend Developer specialized in creating captivating web
                 experiences. Proficient in HTML, CSS, JavaScript, and React.
                 Explore my projects and discover how I craft interactive and
@@ -50,11 +50,11 @@ const Home = () => {
               </p>
             </motion.p>
             {/* btn */}
-            <div className="flex justify-center xl:hidden relative ">
+            <div className="flex justify-center xl:hidden relative">
               <ProjectsBtn />
             </div>
             <motion.div
-              variants={fadeIn("down", 1.8)}
+              variants={fadeIn("down", 1)}
               initial="hidden"
               animate="show"
               exit="hidden"
