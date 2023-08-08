@@ -3,8 +3,6 @@ import React, { useState, useEffect } from "react";
 import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma } from "react-icons/fa";
 import { TbBrandFramerMotion } from "react-icons/tb";
 import { SiTailwindcss, SiAdobexd } from "react-icons/si";
-//image
-import Image from "next/image";
 
 //framer motion
 import { motion } from "framer-motion";
@@ -68,16 +66,8 @@ const About = () => {
           exit="hidden"
           className="flex-1 flex flex-col justify-center"
         >
-          <Image
-            src={"/I.png"}
-            width={160}
-            height={48}
-            alt="Foto de Eduard Camilo Ortega, desarrollador frontend"
-            priority={true}
-            className="rounded-full mx-32 mb-0 max-w-min hidden sm:hidden md:hidden lg:hidden xl:block "
-          />
           {/* eslint-disable-next-line react/no-unescaped-entities */}
-          <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
+          <p className="max-w-[500px] mx-auto xl:mx-0 xl:mb-44 px-2 xl:px-0 mt-9 sm:mt-12 sm:mb-0">
             I&apos;m Eduard, a passionate frontend developer with a
             creative mind and a love for design and web development. With
             expertise in HTML, CSS, and JavaScript, I enjoy building attractive
